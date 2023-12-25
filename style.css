@@ -7,3 +7,6 @@
  -webkit-transition: all 100ms ease-in;
  transition: all 100ms ease-in;
 }
+body{
+    background-color: black;
+}
