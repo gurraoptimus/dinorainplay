@@ -1,4 +1,9 @@
 *,
 *:after,
 *:before {
- box
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ -webkit-transition: all 100ms ease-in;
+ transition: all 100ms ease-in;
+}
