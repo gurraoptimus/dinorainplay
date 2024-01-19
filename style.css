@@ -27,3 +27,7 @@ body{
     position: relative;
     width: 110px;
 }
+.img-container img{
+    width: inherit;
+    height: 110px;
+}
