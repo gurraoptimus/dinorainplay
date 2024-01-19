@@ -29,6 +29,8 @@ body{
 }
 .img-container::after{
     content: '';
+    background-color: #fff;
+    height: 20px;
 }
 .img-container img{
     width: inherit;
