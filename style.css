@@ -67,6 +67,9 @@ body{
     justify-content: center;
     z-index: 1;
 }
-.act{
-    
+.action-btn{
+    background-color: #fff;
+    border: 0;
+    color: #dfdbdf;
+    font-size: 20px;
 }
