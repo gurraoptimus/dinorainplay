@@ -48,7 +48,15 @@ body{
     left: 0;
 
     animation: rotate 3s linear infinite;
+    animation-play-state: paused;
 }
-@keyframes identifier {
-    
+.music-container.play
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
