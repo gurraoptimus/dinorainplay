@@ -61,4 +61,6 @@ body{
         transform: rotate(360deg);
     }
 }
-.na
+.navigation{
+    display: flex;
+}
