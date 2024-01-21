@@ -84,6 +84,6 @@ body{
     outline: 0;
 }
 .music-info{
-    color: rgba(red, green, blue, alpha);
-    border-radius: ;
+    color: rgba(255,255, 255, 0.6);
+    border-radius: 15px 15px 0 0;
 }
