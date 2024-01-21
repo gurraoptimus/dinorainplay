@@ -90,5 +90,6 @@ body{
     top: 0;
     left: 20px;
     width: calc(100% - 40px);
-    opacity: 0;
+    /*opacity: 0;*/
+transform: translateY();
 }
