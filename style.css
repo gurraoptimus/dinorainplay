@@ -51,7 +51,7 @@ body{
     animation-play-state: paused;
 }
 .music-container.play .img-container img{
-    /*animation-play-state: running;*/
+    animation-play-state: running;
 }
 @keyframes rotate {
     from{
@@ -113,7 +113,7 @@ body{
     width: 100%;
 }
 .progress{
-    background-color: #;
+    background-color: #fe8daa;
     border-radius: 5px;
     height: 100%;
     width: 50%;
