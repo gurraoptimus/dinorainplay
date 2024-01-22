@@ -7,3 +7,5 @@ const progress = document.querySelector(".progress")
 const progressContainer = document.querySelector(".progress-container")
 const title = document.querySelector("#title")
 const cover = document.querySelector("#cover")
+
+// song Title //
