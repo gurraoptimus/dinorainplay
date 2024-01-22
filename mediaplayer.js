@@ -9,13 +9,13 @@ const title = document.querySelector("#title")
 const cover = document.querySelector("#cover")
 
 // song Title //
-const songs =["anime", "DansElectro", "DinoRainbowGirlMusic"]
+const songs =["anime", "DansElectro", "DinoRainbowGirlMusic",]
 
 // Keep Track of songs //
-let songIndex = 1
+let songIndex = 2
 
 // Anime load song info DOM //
-loadSong(songs[songIndex]);
+loadSong(songs[songIndex])
 
 // Update song details
 function loadSong(song){
