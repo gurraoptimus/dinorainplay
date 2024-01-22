@@ -1,5 +1,5 @@
 const musicContainer = document.querySelector(".music-container")
-const musicContainer = document.querySelector(".music-container")
+const musicContainer = document.querySelector("#play")
 const musicContainer = document.querySelector(".music-container")
 const musicContainer = document.querySelector(".music-container")
 const musicContainer = document.querySelector(".music-container")
