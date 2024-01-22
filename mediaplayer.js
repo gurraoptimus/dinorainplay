@@ -9,3 +9,6 @@ const title = document.querySelector("#title")
 const cover = document.querySelector("#cover")
 
 // song Title //
+const songs =["anime", "DansElectro", "DinoRainbowGirlMusic"]
+
+// Keep Track of songs //
