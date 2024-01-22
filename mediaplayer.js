@@ -9,17 +9,18 @@ const title = document.querySelector("#title")
 const cover = document.querySelector("#cover")
 
 // song Title //
-const songs =["DinoRainbowGirlMusic"]
+const songs =["Anime"]
 
 // Keep Track of songs //
-let songIndex = 1
+let songIndex = 2
 
 // Anime load song info DOM //
 loadSong(songs[songIndex])
 
-// Update song details
+// Update song details //
 function loadSong(song){
     title.innerText = song
     audio.src = `music/${song}.mp3`
     cover.src = `images/${song}.png`
 }
+// Event 
