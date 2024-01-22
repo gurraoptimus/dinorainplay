@@ -84,7 +84,7 @@ body{
     outline: 0;
 }
 .music-info{
-    /*color: rgba (255, 255, 255, 0.5);*/
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px 15px 0 0;
     position: absolute;
     top: 0;
