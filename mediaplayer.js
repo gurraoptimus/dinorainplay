@@ -15,6 +15,9 @@ const songs =["anime", "DansElectro", "DinoRainbowGirlMusic"]
 let songIndex = 2
 
 // Anime load song info DOM //
-loadSong(songs[songIndex]);
+loadSong(songs[songIndex])
 
-// Update song d
+// Update song details
+function loadSong(song){
+    
+}
