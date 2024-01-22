@@ -12,7 +12,7 @@ const cover = document.querySelector("#cover")
 const songs =["anime"]
 
 // Keep Track of songs //
-let songIndex = 0
+let songIndex = 2
 
 // Anime load song info DOM //
 loadSong(songs[songIndex])
