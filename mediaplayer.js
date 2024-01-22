@@ -12,3 +12,6 @@ const cover = document.querySelector("#cover")
 const songs =["anime", "DansElectro", "DinoRainbowGirlMusic"]
 
 // Keep Track of songs //
+let songIndex = 2
+
+// anime load song info DOM //
