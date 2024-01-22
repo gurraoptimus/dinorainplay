@@ -1,1 +1,7 @@
-const musicContainer = 
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
+const musicContainer = document.querySelector("music-container")
