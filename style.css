@@ -112,3 +112,9 @@ body{
     height: 4px;
     width: 100%;
 }
+.progress{
+    background-color: #;
+    border-radius: 5px;
+    height: 100%;
+    width: 50%;
+}
