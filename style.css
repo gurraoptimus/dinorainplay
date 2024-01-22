@@ -51,7 +51,7 @@ body{
     animation-play-state: paused;
 }
 .music-container.play .img-container img{
-    animation-play-state: running;
+    /*animation-play-state: running;*/
 }
 @keyframes rotate {
     from{
