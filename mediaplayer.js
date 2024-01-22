@@ -14,4 +14,7 @@ const songs =["anime", "DansElectro", "DinoRainbowGirlMusic"]
 // Keep Track of songs //
 let songIndex = 2
 
-// anime load song info DOM //
+// Anime load song info DOM //
+loadSong(songs[songIndex])
+
+// Update song d
