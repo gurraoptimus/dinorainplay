@@ -25,5 +25,7 @@ function loadSong(song){
 }
  //Event listener //
  playBtn.addEventListener("click", () => {
-    const isPlaying =
+    const isPlaying = musicContainer.classList.contains("play")
+    
+    if
  });
