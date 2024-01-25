@@ -27,5 +27,7 @@ function loadSong(song){
  playBtn.addEventListener("click", () => {
     const isPlaying = musicContainer.classList.contains("play")
     
-    if
+    if(isPlaying){
+        pauseSong()
+    }
  });
