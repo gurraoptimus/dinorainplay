@@ -14,8 +14,8 @@ const songs =["Anime", "CraftRoom"]
 // Keep Track of songs //
 let songIndex = 1
 
-// Anime load song info DOM //
-loadSong(songs[songIndex])
+// Initially load song info DOM //
+loadSong(songs [songIndex] )
 
 // Update song details //
 function loadSong(song){
