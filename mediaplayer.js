@@ -25,5 +25,5 @@ function loadSong(song){
 }
  //Event listener //
  playBtn.addEventListener("click", () => {
-    const
+    const isPlaying =
  });
