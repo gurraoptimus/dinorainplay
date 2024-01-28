@@ -17,14 +17,14 @@ let songIndex = 1
 
 // Initially load song info DOM //
 loadSong(songs[songIndex])
-
+/*
 // Update song details //
 function loadSong(song){
     title.innerText = song
     audio.src = 'music/${song}.mp3'
     cover.src = 'images/${song}.jpg'
 }
-/*
+*/
 function playSong() {
     musicContainer.classList.add("play")
     playBtn.querySelector("i.fas").classList.remove("fa-play")
@@ -43,4 +43,4 @@ function pauseSong() {
     }else{
         playSong()
     }
- }) */
+ }) 
