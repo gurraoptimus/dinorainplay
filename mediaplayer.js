@@ -57,11 +57,11 @@ function nexSong(){
     if(songIndex > songs.length - 1 ){
         songIndex = 0
         loadSong(songIndex[songIndex])
-    
+    }
         playSong()
     }
     function updateProgress(e){
-        console.log(e.srcElement)
+        console.log(e.srcElement.currentTime)
     }    
  //Event listener //
  playBtn.addEventListener("click", () => {
