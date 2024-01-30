@@ -60,6 +60,9 @@ function nexSong(){
     
         playSong()
     }
+    function updateProgress(e){
+        console.log(e.srcElement)
+    }    
  //Event listener //
  playBtn.addEventListener("click", () => {
     const isPlaying = musicContainer.classList.contains("play")
@@ -75,4 +78,4 @@ function nexSong(){
 prevBtn.addEventListener("click", prevSong)
 nexBtn.addEventListener("click", nexSong)
 
-audio.addEventListener("timeupdate", )
+audio.addEventListener("timeupdate", updateProgress)
