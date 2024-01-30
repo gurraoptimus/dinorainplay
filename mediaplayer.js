@@ -42,11 +42,15 @@ function pauseSong() {
     audio.pause();
 }
 function prevSong(){
+songIndex--
 
+if(songIndex <0){
+    songIndex = songs.length - 1
+}
 }
 
 function nexSong(){
-    
+
 }
  //Event listener //
  playBtn.addEventListener("click", () => {
