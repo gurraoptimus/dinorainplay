@@ -13,7 +13,7 @@ const cover = document.querySelector("#cover")
 const songs =['Anime', 'Cactus', 'CraftRoom']
 
 // Keep Track of songs //
-let songIndex = 0
+let songIndex = 2
 
 // Initially load song info DOM //
 loadSong(songs[songIndex])
@@ -41,7 +41,7 @@ function pauseSong() {
     audio.pause();
 }
 function prevSong(){
-songIndex--
+    songIndex--
 
 if(songIndex <0){
     songIndex = songs.length - 1
@@ -52,8 +52,14 @@ if(songIndex <0){
 }
 
 function nexSong(){
+    songIndex++
 
-}
+    if(songIndex > songs.length - 1 ){
+        songIndex = 0
+        loadSong(songIndex[songIndex])
+    
+        playSong()
+    }
  //Event listener //
  playBtn.addEventListener("click", () => {
     const isPlaying = musicContainer.classList.contains("play")
