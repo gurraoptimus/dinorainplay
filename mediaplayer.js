@@ -51,3 +51,6 @@ function pauseSong() {
         playSong()
     }
  }) 
+ 
+ //change song events
+prevBtn.addEventListener()
