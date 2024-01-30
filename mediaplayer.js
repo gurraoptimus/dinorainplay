@@ -74,3 +74,5 @@ function nexSong(){
  //change song events
 prevBtn.addEventListener("click", prevSong)
 nexBtn.addEventListener("click", nexSong)
+
+audio.addEventListener("timeupdate", )
