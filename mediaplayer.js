@@ -64,7 +64,7 @@ function nexSong(){
     function updateProgress(e){
         const {duration, currentTime } = e.srcElement
         const progressPecent = (currentTime /duration) * 100
-        progress.style.with 
+        progress.style.with =
     }    
  //Event listener //
  playBtn.addEventListener("click", () => {
