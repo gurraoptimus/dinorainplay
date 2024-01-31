@@ -111,7 +111,7 @@ function DurTime (e) {
 	get_sec (currentTime,sec);
 
 	// change currentTime DOM //
-	currTime.innerHTML = min +':'+ sec;
+	currTime.innerHTML = min +''+ sec;
 
 	// define minutes duration //
 	let min_d = (isNaN(duration) === true)? '0':
