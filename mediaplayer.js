@@ -68,7 +68,7 @@ function nexSong(){
     }    
 
     function setProgress(e){
-
+        const width
     }
 
  //Event listener //
