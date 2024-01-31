@@ -68,7 +68,8 @@ function nexSong(){
     }    
 
     function setProgress(e){
-        const width
+        const width = this.clientWidth
+        console.log(width)
     }
 
  //Event listener //
