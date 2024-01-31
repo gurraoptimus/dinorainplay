@@ -14,8 +14,7 @@ const durTime = document.querySelector('#durTime');
 const songs =['Anime', 'Cactus', 'CraftRoom']
 
 // Keep Track of songs //
-let songIndex = 2
-
+let songIndex = 0
 
 // Initially load song info DOM //
 loadSong(songs[songIndex]);
