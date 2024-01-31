@@ -83,3 +83,4 @@ nexBtn.addEventListener("click", nexSong)
 
 audio.addEventListener("timeupdate", updateProgress)
 
+progressContainer.addEventListener("click", setProgress)
