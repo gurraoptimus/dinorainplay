@@ -66,6 +66,11 @@ function nexSong(){
         const progressPecent = (currentTime /duration) * 100
         progress.style.with = `${progressPecent}%`
     }    
+
+    function setProgress(e){
+        
+    }
+
  //Event listener //
  playBtn.addEventListener("click", () => {
     const isPlaying = musicContainer.classList.contains("play")
