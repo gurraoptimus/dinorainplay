@@ -13,8 +13,9 @@ const cover = document.querySelector("#cover")
 const songs =['Anime', 'Cactus', 'CraftRoom']
 
 // Keep Track of songs //
-let songIndex = 0
+let songIndex = 2
 
+/*
 // Initially load song info DOM //
 loadSong(songs[songIndex])
 
@@ -24,7 +25,7 @@ function loadSong(song){
     audio.src = `music/${song}.mp3`
     cover.src = `images/${song}.jpg`
 }
-
+*/
 function playSong() {
     musicContainer.classList.add("play")
     playBtn.querySelector("i.fas").classList.remove("fa-play")
