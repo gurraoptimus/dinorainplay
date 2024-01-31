@@ -11,7 +11,7 @@ const cover = document.querySelector("#cover")
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 // song Title //
-const songs =['Anime', 'Cactus', 'CraftRoom']
+const songs =['Bubble', 'Anime', 'Cactus', 'CraftRoom']
 
 // Keep Track of songs //
 let songIndex = 0
