@@ -61,7 +61,7 @@ function nexSong(){
         playSong()
     }
     function updateProgress(e){
-        console.log(e.srcElement.currentTime)
+        console.log(e.srcElement.duration)
     }    
  //Event listener //
  playBtn.addEventListener("click", () => {
