@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Hämta användarnamn (kan kopplas till backend)
     const storedUsername = localStorage.getItem("username") || "User";
-    usernameSpan.textContent = storedUsername;
-
+    if (usernameSpan) {
+        usernameSpan.textContent = storedUsername;  // Uppdatera användarnamn
+    }
     // Logout-knapp
     logoutBtn.addEventListener("click", () => {
         localStorage.removeItem("username"); // Rensar inloggad användare
