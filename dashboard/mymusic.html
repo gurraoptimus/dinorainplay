@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music - DinoRainPlay</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="../music/mediaplayer.js"></script>
+    <script defer src="dashboard.js"></script>
+    <!--<script defer src="player.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2>DinoRainPlay</h2>
+            <ul>
+                <li><a href="dashboard.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" class="active"><i class="fas fa-music"></i> My Music</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Favorites</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+            <button id="logoutBtn" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </nav>
+
+        <!-- Main content -->
+        <main class="main-content">
+            <h1>My Music</h1>
+            <p>play your favorite songs.</p>
+            
+            <!-- Song List -->
+            <div class="song-list">
+                <h2>Your Songs</h2>
+                <ul id="songList"></ul>
+            </div>
+            
+            <!-- Music Player -->
+            <div class="music-container">
+                <div class="img-container">
+                    <img src="../images" alt="music-cover" id="cover" />
+                </div>
+                <div class="music-info">
+                    <h4 id="title"></h4>
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+        
+                <audio src="../music/" id="audio"></audio>
+
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                </div>
+            </div>
+        </main>        
+            </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
